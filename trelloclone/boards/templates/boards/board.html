@@ -1,7 +1,9 @@
 {% extends 'boards/base.html' %}
 
 {% block content %}
+    <div class="wrapper">
     {% for list in l_list %}
     <a href="/list/{{ list.id }}" class="btn btn-warning btn-warning-board"><div><p class="texcik">{{ list.list_name }}</p></div></a>
     {% endfor %}
+    </div>
 {% endblock %}

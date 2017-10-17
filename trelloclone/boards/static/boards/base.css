@@ -1,13 +1,13 @@
 .btn-warning-board {
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    font-size: 20px;
+    height: 15rem;
+    width: 15rem;
+    margin: 2rem;
+    font-size: 10rem;
     text-align: center;
 }
 
 .single-title {
-    font-size: 30px;
+    font-size: 1rem;
     color: #ffffff;
     text-align: center;
     background-color: #e7a413;
@@ -15,16 +15,16 @@
 }
 
 .texcik {
-    margin-top: 70px;
+    margin-top: 5rem;
 }
 
 .card-on-list {
     float: left;
     background-color: #FFF;
-    height: 200px;
-    width: 200px;
-    margin: 20px;
-    font-size: 20px;
+    height: 15rem;
+    width: 15rem;
+    margin: 2rem;
+    font-size: 1rem;
     color: #000000;
     text-align: center;
     align: left;
@@ -38,4 +38,8 @@
 
 .jumbotron {
     min-height: 700px;
+}
+
+.wrapper {
+    display: felx;
 }
