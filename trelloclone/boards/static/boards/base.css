@@ -1,0 +1,41 @@
+.btn-warning-board {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.single-title {
+    font-size: 30px;
+    color: #ffffff;
+    text-align: center;
+    background-color: #e7a413;
+    border-color: #dd9d12;
+}
+
+.texcik {
+    margin-top: 70px;
+}
+
+.card-on-list {
+    float: left;
+    background-color: #FFF;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+    align: left;
+
+}
+
+.descrip {
+    font-size: 5px;
+    color: grey;
+}
+
+.jumbotron {
+    min-height: 700px;
+}

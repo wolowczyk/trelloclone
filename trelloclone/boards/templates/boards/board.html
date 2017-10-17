@@ -1,8 +1,7 @@
 {% extends 'boards/base.html' %}
 
 {% block content %}
-<p><a href="/addlist">ADD LIST</a></p>
-{% for list in l_list %}
-<p>{{ list.list_name }}</p>
-{% endfor %}
+    {% for list in l_list %}
+    <a href="/list/{{ list.id }}" class="btn btn-warning btn-warning-board"><div><p class="texcik">{{ list.list_name }}</p></div></a>
+    {% endfor %}
 {% endblock %}
